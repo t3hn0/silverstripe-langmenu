@@ -1,7 +1,7 @@
-#About
+# About
 Common function for building LangMenu dropdown for use in template.
 
-#How to use
+# How to use
 ```html
 <% if $LangMenu %>
 <select onChange="window.location.href=this.value" class="langswitcher">
@@ -13,5 +13,5 @@ Common function for building LangMenu dropdown for use in template.
 ```
 
 
-#Todo
+# Todo
 Add sort order
