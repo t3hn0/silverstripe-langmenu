@@ -1,0 +1,14 @@
+---
+name: LangMenuConfig
+before: 'mysite/*'
+---
+SiteTree:
+  extensions:
+    - LangMenuDecorator
+
+# Copy to mysite/_config/langmenu.yml
+#LangMenuDecorator:
+#  all_allowed_locales: []
+#  default_classes: []
+#  search_for_translation: true
+#  hidden_locales: []
